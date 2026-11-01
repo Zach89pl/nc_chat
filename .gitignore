@@ -1,0 +1,15 @@
+node_modules
+.next
+next-env.d.ts
+*.tsbuildinfo
+npm-debug.log*
+
+# Sekrety – nie trafiają do Gita
+.env
+.env.*
+!.env.example
+*.pem
+
+# Ustawienia lokalne narzędzi
+.vercel
+.claude
